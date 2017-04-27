@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Assets_Scene_Test.unity>
+    <trigger id="0" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <enterCollider name="enterCollider" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="enterCollider" classify="general" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+              <prop name="id" format="string">0</prop>
+              <prop name="pos" format="object" />
+            </bean>
+          </enterCollider>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs />
+      </行为>
+    </trigger>
+  </Assets_Scene_Test.unity>
+  <Assets_Scene_fps_Level01_pve01.unity>
+    <trigger id="1" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <and name="and" layer="1" index="2" nodeClassify="1" nodeType="4">
+            <childs>
+              <mapInitialize name="mapInitialize" layer="2" index="0" nodeClassify="1" nodeType="0">
+                <childs />
+                <bean name="mapInitialize" classify="general" description="Map initialization" />
+              </mapInitialize>
+              <timeOfDay name="timeOfDay" layer="2" index="1" nodeClassify="1" nodeType="0">
+                <childs />
+                <bean name="timeOfDay" classify="game" description="Time Of Day to value">
+                  <prop name="value" format="float">0</prop>
+                </bean>
+              </timeOfDay>
+            </childs>
+          </and>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs />
+      </行为>
+    </trigger>
+  </Assets_Scene_fps_Level01_pve01.unity>
+  <Test>
+    <trigger id="0" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <and name="and" layer="1" index="1" nodeClassify="1" nodeType="4">
+            <childs>
+              <enterCollider name="enterCollider" layer="2" index="0" nodeClassify="1" nodeType="0">
+                <childs />
+                <bean name="enterCollider" classify="general" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+                  <prop name="id" format="string">0</prop>
+                  <prop name="pos" format="object" />
+                </bean>
+              </enterCollider>
+            </childs>
+          </and>
+          <or name="or" layer="1" index="1" nodeClassify="1" nodeType="5">
+            <childs />
+          </or>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs>
+          <and name="and" layer="1" index="2" nodeClassify="2" nodeType="4">
+            <childs>
+              <great name="great" layer="2" index="-1" nodeClassify="2" nodeType="0">
+                <childs />
+                <bean name="great" classify="general" description="summon of monster">
+                  <prop name="name" format="string">$tet</prop>
+                  <prop name="value" format="string">11</prop>
+                </bean>
+              </great>
+              <minus name="minus" layer="2" index="0" nodeClassify="2" nodeType="0">
+                <childs />
+                <bean name="minus" classify="general" description="summon of monster">
+                  <prop name="name" format="string">$tet</prop>
+                  <prop name="value" format="string">1</prop>
+                </bean>
+              </minus>
+            </childs>
+          </and>
+        </childs>
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs>
+          <animator name="animator" layer="1" index="0" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="animator" classify="general" component="LaoHan.Tools.FPSWorldEditor.lhTriggerAnimator" description="summon of monster">
+              <prop name="id" format="string">0</prop>
+            </bean>
+          </animator>
+        </childs>
+      </行为>
+    </trigger>
+  </Test>
+  <fps_Level01_pve01>
+    <trigger id="0" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <enterCollider name="enterCollider" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="enterCollider" classify="事件" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+              <prop name="id" format="string">0-00000</prop>
+            </bean>
+          </enterCollider>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs>
+          <cutScene name="cutScene" layer="1" index="0" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="cutScene" classify="逻辑" description="cut scene" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCutScene">
+              <prop name="id" format="string">0-00000</prop>
+            </bean>
+          </cutScene>
+          <tickSummon name="tickSummon" layer="1" index="1" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="tickSummon" classify="逻辑" description="tick summon of monster">
+              <prop name="id" format="int">1</prop>
+              <prop name="pos" format="object">[Point]/GameObject</prop>
+              <prop name="maxCount" format="int">10</prop>
+              <prop name="nowLimitMax" format="int">4</prop>
+              <prop name="nowLimitMin" format="int">5</prop>
+              <prop name="delay" format="int">0</prop>
+              <prop name="tag" format="int">0</prop>
+              <prop name="nextBirthMax" format="int">2000</prop>
+              <prop name="nextBirthMin" format="int">3000</prop>
+            </bean>
+          </tickSummon>
+          <closeCollider name="closeCollider" layer="1" index="2" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="closeCollider" classify="逻辑" description="closeCollider">
+              <prop name="id" format="string">0-00000</prop>
+            </bean>
+          </closeCollider>
+        </childs>
+      </行为>
+    </trigger>
+  </fps_Level01_pve01>
+  <fps_Level01_pve01new>
+    <trigger id="0" name="new gro" open="true">
+      <事件 name="事件" layer="0" index="1" nodeClassify="1" nodeType="0">
+        <childs>
+          <enterCollider name="enterCollider" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="enterCollider" classify="general" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+              <prop name="id" format="string">1-1000</prop>
+            </bean>
+          </enterCollider>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="1" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="1" nodeClassify="3" nodeType="0">
+        <childs>
+          <cutScene name="cutScene" layer="1" index="0" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="cutScene" classify="general" description="cut scene" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCutScene">
+              <prop name="id" format="string">1-1000</prop>
+            </bean>
+          </cutScene>
+        </childs>
+      </行为>
+    </trigger>
+  </fps_Level01_pve01new>
+  <cut_scene_test>
+    <trigger id="0" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <enterCollider name="enterCollider" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="enterCollider" classify="general" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+              <prop name="id" format="string">0-00000</prop>
+            </bean>
+          </enterCollider>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs>
+          <cutScene name="cutScene" layer="1" index="0" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="cutScene" classify="general" description="cut scene" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCutScene">
+              <prop name="id" format="string">0-00000</prop>
+            </bean>
+          </cutScene>
+        </childs>
+      </行为>
+    </trigger>
+  </cut_scene_test>
+  <GameScene>
+  </GameScene>
+  <fps_Level01_pve02>
+    <trigger id="0" name="new group0" open="true">
+      <事件 name="事件" layer="0" index="0" nodeClassify="1" nodeType="0">
+        <childs>
+          <mapInitialize name="mapInitialize" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="mapInitialize" classify="事件" description="Map initialization" />
+          </mapInitialize>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="0" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="0" nodeClassify="3" nodeType="0">
+        <childs>
+          <tickSummon name="tickSummon" layer="1" index="-1" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="tickSummon" classify="逻辑" description="tick summon of monster">
+              <prop name="id" format="int">30001</prop>
+              <prop name="pos" format="object">[Point]/new grouo01</prop>
+              <prop name="maxCount" format="int">1</prop>
+              <prop name="nowLimitMax" format="int">1</prop>
+              <prop name="nowLimitMin" format="int">1</prop>
+              <prop name="delay" format="int">0</prop>
+              <prop name="tag" format="int">1</prop>
+              <prop name="nextBirthMax" format="int">0</prop>
+              <prop name="nextBirthMin" format="int">0</prop>
+              <prop name="needToAttack" format="int">0</prop>
+              <prop name="walkPercent" format="int">0</prop>
+            </bean>
+          </tickSummon>
+        </childs>
+      </行为>
+    </trigger>
+    <trigger id="1" name="new group1" open="true">
+      <事件 name="事件" layer="0" index="1" nodeClassify="1" nodeType="0">
+        <childs>
+          <enterCollider name="enterCollider" layer="1" index="0" nodeClassify="1" nodeType="0">
+            <childs />
+            <bean name="enterCollider" classify="事件" component="LaoHan.Tools.FPSWorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+              <prop name="id" format="string">1-00000</prop>
+            </bean>
+          </enterCollider>
+        </childs>
+      </事件>
+      <条件 name="条件" layer="0" index="1" nodeClassify="2" nodeType="0">
+        <childs />
+      </条件>
+      <行为 name="行为" layer="0" index="1" nodeClassify="3" nodeType="0">
+        <childs>
+          <activeMonster name="activeMonster" layer="1" index="0" nodeClassify="3" nodeType="0">
+            <childs />
+            <bean name="activeMonster" classify="逻辑" description="activeMonster">
+              <prop name="tag" format="int">1</prop>
+            </bean>
+          </activeMonster>
+        </childs>
+      </行为>
+    </trigger>
+  </fps_Level01_pve02>
+</root>

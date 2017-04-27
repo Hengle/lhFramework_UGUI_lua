@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1889361694
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7c4f7785c84e410f25cf297137f599b4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 45fad9cbf89884472c64e2db5a20820c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e4cda99b2ef0a1a419909fcf31ab10fc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI_csharp/Utility_Loading.prefab
+Dependencies: []

@@ -1,0 +1,17 @@
+[
+    {
+        "bundleName" : "LA",        
+        "version" : 50,        
+        "crc" : 2351286750,        
+        "size" : 1027965,        
+        "changeTime" : -8588132013760529028,        
+        "lastBuildDependencies" : 
+        [
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Textures/constructor_diffuse.png",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/LA.unity",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/worker.FBX",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Textures/constructor_normals.png",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Materials/constructor_done.mat"
+        ]
+    }
+]

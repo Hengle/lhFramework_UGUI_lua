@@ -1,0 +1,27 @@
+{
+	"mixers":
+	[
+		{
+			"name":"UIMixer",
+			"path":"AudioMixer,UIMixer"
+		}
+	],
+	"sound2D":
+	[
+		{
+			"name":"button",
+			"clipPath":"Audio,UI_ButtonClick",
+			"mixerName":"UIMixer",
+			"mixerGroup":"Master"
+		}
+	],
+	"backMusic":
+	[
+		{
+			"name":"back1",
+			"clipPath":"Audio,Back_Aftermath",
+			"mixerName":"UIMixer",
+			"mixerGroup":"Master"
+		}
+	]
+}

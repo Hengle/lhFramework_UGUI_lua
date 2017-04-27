@@ -1,0 +1,24 @@
+<root>
+  <bean name="add" classify="general" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="minus" classify="general" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="great" classify="general" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="less" classify="general" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+   <bean name="curTime" classify="general" description="set NowTime">
+    <prop name="name" format="int"/>
+  </bean>
+</root>

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2494200429
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 21ae601fefaadd7a9989bbbf72497d77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/luaPlugins/socket/url.txt
+Dependencies: []

@@ -1,0 +1,36 @@
+[
+    
+    {
+        "name" : "LA",        
+        "includs" : 
+        [
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/LA.unity"
+        ],        
+        "dependAssets" : 
+        [
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Textures/constructor_diffuse.png",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Materials/constructor_done.mat",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/Textures/constructor_normals.png",            
+            "Assets/BundleManager/TestDownloadManager/BundleAssets/charaterRes/worker.FBX"
+        ],        
+        "includeGUIDs" : 
+        [
+            "f996e0a58a2968747b0fa4f8452878a4"
+        ],        
+        "dependGUIDs" : 
+        [
+            "97b050d43ac7c4d2b9f6cbb587650761",            
+            "ca49380a71a2bb64c830d06bd421b9d1",            
+            "531c14f8d5cdc4e5baa83ee6e16f783a",            
+            "449b48f7eb5d87a4baaa5fb73f875a59"
+        ],        
+        "sceneBundle" : true,        
+        "priority" : 1,        
+        "parent" : "",        
+        "children" : 
+        [
+            
+        ]
+    }
+    
+]

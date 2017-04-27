@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2974337550
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b949ab78287e804061f1cb30e9847ed6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 77fd5a81281434a62e1036ba83f34ea8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 96be7464fa3e318468a9fe2a20d00e32, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/UI_csharp/UI_SocketError.prefab
+Dependencies: []

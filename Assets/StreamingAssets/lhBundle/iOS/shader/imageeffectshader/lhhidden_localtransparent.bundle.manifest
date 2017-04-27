@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2083058466
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 513463d9db4f225d662e69554acc1639
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1094ce4a8b63a0cc7870d736bb694a93
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Shader/ImageEffectShader/lhHidden_LocalTransparent.shader
+Dependencies: []

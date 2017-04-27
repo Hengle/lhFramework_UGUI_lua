@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 559542965
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90c71f8704f4ec7603b5ef0b261318ef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/luaPlugins/protobuf/decoder.txt
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2109412809
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87bdd51499a815a0c77c486f87e6e33a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Effect_Explosion1.wav
+Dependencies: []

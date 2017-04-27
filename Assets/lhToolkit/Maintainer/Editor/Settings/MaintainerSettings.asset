@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d570576a55f2355408c5108ee3631081, type: 3}
+  m_Name: MaintainerSettings
+  m_EditorClassIdentifier: 
+  issuesSettings:
+    commonToggle: 1
+    commonFoldout: 0
+    prefabsToggle: 1
+    prefabsFoldout: 0
+    junkToggle: 1
+    junkFoldout: 0
+    neatnessToggle: 1
+    neatnessFoldout: 0
+    lookInScenes: 1
+    scenesSelection: 0
+    lookInAssets: 1
+    touchInactiveGameObjects: 1
+    touchDisabledComponents: 1
+    lastSearchResults:
+    - path: Assets/Resources/UI_csharp/UI_Hall.prefab
+      gameObject: UI_Hall/BtnChat
+      gameObjectIndex: 5
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_Hall.prefab
+      gameObject: UI_Hall/ScrollView
+      gameObjectIndex: 8
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_Loading.prefab
+      gameObject: UI_Loading/Bg
+      gameObjectIndex: 12
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_Loading.prefab
+      gameObject: UI_Loading/Slider
+      gameObjectIndex: 13
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose
+      gameObjectIndex: 17
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/Bg
+      gameObjectIndex: 18
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/BtnEnterGame
+      gameObjectIndex: 20
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/BtnChangeServer
+      gameObjectIndex: 21
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/BackMask
+      gameObjectIndex: 25
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/BackImage
+      gameObjectIndex: 26
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Image
+      gameObjectIndex: 27
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Ok
+      gameObjectIndex: 28
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Cancel
+      gameObjectIndex: 29
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/OkCenter
+      gameObjectIndex: 30
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Loading.prefab
+      gameObject: Utility_Loading/BackMask
+      gameObjectIndex: 34
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Loading.prefab
+      gameObject: Utility_Loading/Image
+      gameObjectIndex: 35
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_csharp/Utility_Tooltip.prefab
+      gameObject: Utility_Tooltip
+      gameObjectIndex: 36
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/UI_Hall.prefab
+      gameObject: UI_Hall/ScrollView
+      gameObjectIndex: 45
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose
+      gameObjectIndex: 51
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/Bg
+      gameObjectIndex: 52
+      component: RawImage
+      field: Texture
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/BtnEnterGame
+      gameObjectIndex: 54
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/UI_ServerChoose.prefab
+      gameObject: UI_ServerChoose/BtnChangeServer
+      gameObjectIndex: 55
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/BackMask
+      gameObjectIndex: 58
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/BackImage
+      gameObjectIndex: 59
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Image
+      gameObjectIndex: 60
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Ok
+      gameObjectIndex: 61
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/Cancel
+      gameObjectIndex: 62
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Dialog.prefab
+      gameObject: Utility_Dialog/OkCenter
+      gameObjectIndex: 63
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Loading.prefab
+      gameObject: Utility_Loading/BackMask
+      gameObjectIndex: 67
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Loading.prefab
+      gameObject: Utility_Loading/Image
+      gameObjectIndex: 68
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    - path: Assets/Resources/UI_lua/Utility_Tooltip.prefab
+      gameObject: Utility_Tooltip
+      gameObjectIndex: 69
+      component: Image
+      field: Sprite
+      misc: 
+      type: 100
+      severity: 10
+      source: 10
+    missingComponents: 1
+    duplicateComponents: 1
+    missingReferences: 1
+    undefinedTags: 1
+    emptyArrayItems: 1
+    skipEmptyArrayItemsOnPrefabs: 1
+    missingPrefabs: 1
+    disconnectedPrefabs: 1
+    emptyMeshColliders: 1
+    emptyMeshFilters: 1
+    emptyAnimations: 1
+    emptyRenderers: 1
+    unnamedLayers: 1
+  selectedTabIndex: 0
+  currentProjectPath: E:/personal/unityDemo/lhFramework_UGUI_lua/1.1.0

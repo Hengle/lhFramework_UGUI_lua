@@ -1,0 +1,792 @@
+{
+    "wrappedCustomTypeList" : 
+    [
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Control",            
+            "className" : "LaoHan.Control.lhControlNetwork",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Control_lhControlNetworkWrap",            
+            "libName" : "lhControlNetwork",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Infrastruture",            
+            "className" : "LaoHan.Infrastruture.lhDebug",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Infrastruture_lhDebugWrap",            
+            "libName" : "lhDebug",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Infrastruture",            
+            "className" : "LaoHan.Infrastruture.lhResources",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Infrastruture_lhResourcesWrap",            
+            "libName" : "lhResources",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Infrastruture",            
+            "className" : "LaoHan.Infrastruture.lhObjectManager",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Infrastruture_lhObjectManagerWrap",            
+            "libName" : "lhObjectManager",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Infrastruture",            
+            "className" : "LaoHan.Infrastruture.EPoolType",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Infrastruture_EPoolTypeWrap",            
+            "libName" : "EPoolType",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "LaoHan.Infrastruture",            
+            "className" : "LaoHan.Infrastruture.lhSceneManager",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "LaoHan_Infrastruture_lhSceneManagerWrap",            
+            "libName" : "lhSceneManager",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Debug",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_DebugWrap",            
+            "libName" : "Debug",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Component",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ComponentWrap",            
+            "libName" : "Component",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.MonoBehaviour",            
+            "baseClass" : "UnityEngine.Behaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_MonoBehaviourWrap",            
+            "libName" : "MonoBehaviour",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.GameObject",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_GameObjectWrap",            
+            "libName" : "GameObject",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Transform",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_TransformWrap",            
+            "libName" : "Transform",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.TrackedReference",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_TrackedReferenceWrap",            
+            "libName" : "TrackedReference",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Application",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_ApplicationWrap",            
+            "libName" : "Application",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Physics",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_PhysicsWrap",            
+            "libName" : "Physics",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Collider",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ColliderWrap",            
+            "libName" : "Collider",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Time",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_TimeWrap",            
+            "libName" : "Time",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Texture",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_TextureWrap",            
+            "libName" : "Texture",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Texture2D",            
+            "baseClass" : "UnityEngine.Texture, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_Texture2DWrap",            
+            "libName" : "Texture2D",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Shader",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ShaderWrap",            
+            "libName" : "Shader",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Material",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_MaterialWrap",            
+            "libName" : "Material",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Renderer",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_RendererWrap",            
+            "libName" : "Renderer",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.WWW",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_WWWWrap",            
+            "libName" : "WWW",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Screen",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_ScreenWrap",            
+            "libName" : "Screen",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Camera",            
+            "baseClass" : "UnityEngine.Behaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_CameraWrap",            
+            "libName" : "Camera",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.CameraClearFlags",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_CameraClearFlagsWrap",            
+            "libName" : "CameraClearFlags",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AudioClip",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AudioClipWrap",            
+            "libName" : "AudioClip",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AudioSource",            
+            "baseClass" : "UnityEngine.Behaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AudioSourceWrap",            
+            "libName" : "AudioSource",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AssetBundle",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AssetBundleWrap",            
+            "libName" : "AssetBundle",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.ParticleSystem",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ParticleSystemWrap",            
+            "libName" : "ParticleSystem",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AsyncOperation",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_AsyncOperationWrap",            
+            "libName" : "AsyncOperation",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Light",            
+            "baseClass" : "UnityEngine.Behaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_LightWrap",            
+            "libName" : "Light",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.LightType",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_LightTypeWrap",            
+            "libName" : "LightType",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.SleepTimeout",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_SleepTimeoutWrap",            
+            "libName" : "SleepTimeout",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Animator",            
+            "baseClass" : "UnityEngine.Experimental.Director.DirectorPlayer, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AnimatorWrap",            
+            "libName" : "Animator",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Input",            
+            "baseClass" : "System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_InputWrap",            
+            "libName" : "Input",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.KeyCode",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_KeyCodeWrap",            
+            "libName" : "KeyCode",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.SkinnedMeshRenderer",            
+            "baseClass" : "UnityEngine.Renderer, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_SkinnedMeshRendererWrap",            
+            "libName" : "SkinnedMeshRenderer",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Space",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_SpaceWrap",            
+            "libName" : "Space",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.MeshRenderer",            
+            "baseClass" : "UnityEngine.Renderer, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_MeshRendererWrap",            
+            "libName" : "MeshRenderer",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.ParticleEmitter",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ParticleEmitterWrap",            
+            "libName" : "ParticleEmitter",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.ParticleAnimator",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_ParticleAnimatorWrap",            
+            "libName" : "ParticleAnimator",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.BoxCollider",            
+            "baseClass" : "UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_BoxColliderWrap",            
+            "libName" : "BoxCollider",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.MeshCollider",            
+            "baseClass" : "UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_MeshColliderWrap",            
+            "libName" : "MeshCollider",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.SphereCollider",            
+            "baseClass" : "UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_SphereColliderWrap",            
+            "libName" : "SphereCollider",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.CapsuleCollider",            
+            "baseClass" : "UnityEngine.Collider, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_CapsuleColliderWrap",            
+            "libName" : "CapsuleCollider",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Animation",            
+            "baseClass" : "UnityEngine.Behaviour, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AnimationWrap",            
+            "libName" : "Animation",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AnimationClip",            
+            "baseClass" : "UnityEngine.Motion, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AnimationClipWrap",            
+            "libName" : "AnimationClip",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.AnimationState",            
+            "baseClass" : "UnityEngine.TrackedReference, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_AnimationStateWrap",            
+            "libName" : "AnimationState",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.RenderTexture",            
+            "baseClass" : "UnityEngine.Texture, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_RenderTextureWrap",            
+            "libName" : "RenderTexture",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.Rigidbody",            
+            "baseClass" : "UnityEngine.Component, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_RigidbodyWrap",            
+            "libName" : "Rigidbody",            
+            "isStatic" : false,            
+            "preload" : true,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.TextAsset",            
+            "baseClass" : "UnityEngine.Object, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_TextAssetWrap",            
+            "libName" : "TextAsset",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine",            
+            "className" : "UnityEngine.RectTransform",            
+            "baseClass" : "UnityEngine.Transform, UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "wrapName" : "UnityEngine_RectTransformWrap",            
+            "libName" : "RectTransform",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.SceneManagement",            
+            "className" : "UnityEngine.SceneManagement.LoadSceneMode",            
+            "baseClass" : "System.Enum, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "wrapName" : "UnityEngine_SceneManagement_LoadSceneModeWrap",            
+            "libName" : "LoadSceneMode",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        }
+    ],    
+    "wrappedDelegateList" : 
+    [
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.Application",            
+            "className" : "UnityEngine.Application.LogCallback",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "LogCallback",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.Application",            
+            "className" : "UnityEngine.Application.AdvertisingIdentifierCallback",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "AdvertisingIdentifierCallback",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.Camera",            
+            "className" : "UnityEngine.Camera.CameraCallback",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "CameraCallback",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.AudioClip",            
+            "className" : "UnityEngine.AudioClip.PCMReaderCallback",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "PCMReaderCallback",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.AudioClip",            
+            "className" : "UnityEngine.AudioClip.PCMSetPositionCallback",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "PCMSetPositionCallback",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",            
+            "nameSpace" : "UnityEngine.RectTransform",            
+            "className" : "UnityEngine.RectTransform.ReapplyDrivenProperties",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "ReapplyDrivenProperties",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action<bool>",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action_bool",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action<int,string,UnityEngine.Object>",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action_int_string_UnityEngine_Object",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action<UnityEngine.Object>",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action_UnityEngine_Object",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action<UnityEngine.GameObject>",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action_UnityEngine_GameObject",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        },        
+        
+        {
+            "assemblyName" : "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",            
+            "nameSpace" : "System",            
+            "className" : "System.Action<float>",            
+            "baseClass" : "",            
+            "wrapName" : "",            
+            "libName" : "Action_float",            
+            "isStatic" : false,            
+            "preload" : false,            
+            "drop" : false
+        }
+    ],    
+    "dropedTypeList" : 
+    [
+        
+    ]
+}

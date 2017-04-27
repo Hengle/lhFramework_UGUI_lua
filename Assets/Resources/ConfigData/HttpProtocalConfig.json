@@ -1,0 +1,16 @@
+{
+	"get":
+	[
+		{
+			"cmd":"login",
+			"url":"http://192.168.1.1/login"
+		}
+	],
+	"post":
+	[
+		{
+			"cmd":"loginError",
+			"url":"//http://192.168.1.1/loginError"
+		}
+	]
+}

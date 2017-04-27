@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 562803848
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3a7a080ddf1494a3ba29dd33954a5f9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Effect_Eruption1.wav
+Dependencies: []

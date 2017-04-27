@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4282742675
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 697a04be591245560fa4641359535747
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1094ce4a8b63a0cc7870d736bb694a93
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Shader/ImageEffectShader/lhUI_ImageFuzzy.shader
+Dependencies: []

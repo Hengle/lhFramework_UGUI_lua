@@ -1,0 +1,9 @@
+id,name,maxShield,shield_recover,maxHp
+uint,string,uint,float,uint
+装备id,装备名称,护盾值,护盾恢复速率,耐久上限
+all,all,all,all,all
+11001,护甲1,0,0,150
+11002,护甲2,0,0,300
+11003,护甲3,0,0,350
+11010,护盾1,200,25,0
+11011,护盾2,200,25,0

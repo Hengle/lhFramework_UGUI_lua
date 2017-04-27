@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3513004904
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fd74497f9660c2da2cd6238c37386301
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Back_Drives Me Crazy.mp3
+Dependencies: []

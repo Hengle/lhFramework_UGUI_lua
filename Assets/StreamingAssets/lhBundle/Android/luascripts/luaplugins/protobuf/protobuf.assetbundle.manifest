@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3146942770
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 743d8ba91f2e0bc358a0f06d701b5c2b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/luaPlugins/protobuf/protobuf.txt
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3136242288
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be169187f0d7a41faf0b7e5db744f7ee
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 20d2a047ae4e99a3eaf853982df4d9aa
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effect/Material/New Material 1.mat
+Dependencies:
+- Assets/StreamingAssets/lhBundle/iOS/effect/texture/npceditscene.bundle
+- Assets/StreamingAssets/lhBundle/iOS/shader/imageeffectshader/lhhidden_outterlinecutoff.bundle

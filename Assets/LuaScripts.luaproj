@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="LuaScripts\" />
+    <Folder Include="LuaScripts\framework\" />
+    <Folder Include="LuaScripts\framework\controlSystem\" />
+    <Folder Include="LuaScripts\framework\dataSystem\" />
+    <Folder Include="LuaScripts\framework\infrastrutureSystem\" />
+    <Folder Include="LuaScripts\framework\infrastrutureSystem\system\" />
+    <Folder Include="LuaScripts\framework\networkSystem\" />
+    <Folder Include="LuaScripts\framework\uiSystem\" />
+    <Folder Include="LuaScripts\gameplay\" />
+    <Folder Include="LuaScripts\gameplay\Battle\" />
+    <Folder Include="LuaScripts\gameplay\Battle\Npc\" />
+    <Folder Include="LuaScripts\gameplay\Battle\Player\" />
+    <Folder Include="LuaScripts\gameplay\controlSystem\" />
+    <Folder Include="LuaScripts\gameplay\dataSystem\" />
+    <Folder Include="LuaScripts\gameplay\Hall\" />
+    <Folder Include="LuaScripts\gameplay\uiSystem\" />
+    <Folder Include="LuaScripts\luaPlugins\" />
+    <Folder Include="LuaScripts\luaPlugins\cjson\" />
+    <Folder Include="LuaScripts\luaPlugins\protobuf\" />
+    <Folder Include="LuaScripts\luaPlugins\socket\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LuaScripts\framework\controlSystem\luaControlNetwork.lua" />
+    <Compile Include="LuaScripts\framework\dataSystem\luaCacheData.lua" />
+    <Compile Include="LuaScripts\framework\dataSystem\luaConfigData.lua" />
+    <Compile Include="LuaScripts\framework\dataSystem\luaMemoryData.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\luaBehaviour.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\luaInfrastrutureManager.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Bounds.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Class.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Color.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\coroutine.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\event.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\LayerMask.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\list.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Mathf.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\misc.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Plane.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Quaternion.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Ray.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\RaycastHit.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\slot.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\strict.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Time.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Timer.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\tolua.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Touch.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\typeof.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\utf8.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\ValueType.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Vector2.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Vector3.lua" />
+    <Compile Include="LuaScripts\framework\infrastrutureSystem\system\Vector4.lua" />
+    <Compile Include="LuaScripts\framework\uiSystem\luaIntent.lua" />
+    <Compile Include="LuaScripts\framework\uiSystem\luaUIBase.lua" />
+    <Compile Include="LuaScripts\framework\uiSystem\luaUIManager.lua" />
+    <Compile Include="LuaScripts\gameplay\uiSystem\luaUI_Hall.lua" />
+    <Compile Include="LuaScripts\gameplay\uiSystem\luaUI_Login.lua" />
+    <Compile Include="LuaScripts\luaPlugins\cjson\util.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\containers.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\decoder.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\descriptor.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\encoder.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\listener.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\protobuf.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\text_format.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\type_checkers.lua" />
+    <Compile Include="LuaScripts\luaPlugins\protobuf\wire_format.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\ftp.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\headers.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\http.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\mbox.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\smtp.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\tp.lua" />
+    <Compile Include="LuaScripts\luaPlugins\socket\url.lua" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

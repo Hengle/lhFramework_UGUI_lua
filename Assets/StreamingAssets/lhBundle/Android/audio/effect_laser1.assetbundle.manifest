@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1808728043
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a8f4935f0ad9580cc24dee8e32846f81
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Effect_Laser1.wav
+Dependencies: []

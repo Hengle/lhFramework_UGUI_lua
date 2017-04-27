@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1890013090
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c2288884c941f0811ce1d2b2cd19d3d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Back_Aftermath.mp3
+Dependencies: []

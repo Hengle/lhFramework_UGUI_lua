@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1691986456
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aa481cb490b185ee53abaceca3926d39
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c516f2a3b2b6b67ef759f6410a790acd
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Audio/Back_1.wav
+Dependencies: []

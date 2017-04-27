@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1449880404
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: edc2a74415cc8ce2a8d5bf9d39309b41
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/framework/infrastrutureSystem/system/RaycastHit.txt
+Dependencies: []

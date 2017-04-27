@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3680864736
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45e8324e74c329c4d392bf1288028ca3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/framework/infrastrutureSystem/system/Vector3.txt
+Dependencies: []

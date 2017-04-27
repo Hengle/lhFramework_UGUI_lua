@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3886045161
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9dc9349c2c65ae247e98f365fe2b225a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1094ce4a8b63a0cc7870d736bb694a93
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Shader/ImageEffectShader/lhHidden_OutterLineShapeBlur.shader
+Dependencies: []

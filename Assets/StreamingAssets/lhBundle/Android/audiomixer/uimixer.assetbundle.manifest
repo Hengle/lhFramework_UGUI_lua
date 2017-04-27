@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 2599764544
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2784b65d75a046bbf9ba08ba677d5851
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3c4cf01fffec25a5cacbd89537355f60
+HashAppended: 0
+ClassTypes:
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/AudioMixer/UIMixer.mixer
+Dependencies: []

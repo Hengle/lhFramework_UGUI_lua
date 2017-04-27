@@ -1,0 +1,134 @@
+<root>
+	<bean name="summon" classify="逻辑" description="summon of monster">
+		<prop name="id" format="int"/>
+		<prop name="pos" format="object"/>
+	</bean>
+
+	<bean name="add" classify="运算" description="summon of monster">
+		<prop name="name" format="string"/>
+		<prop name="value" format="string"/>
+	</bean>
+
+	<bean name="minus" classify="运算" description="summon of monster">
+		<prop name="name" format="string"/>
+		<prop name="value" format="string"/>
+	</bean>
+
+	<bean name="great" classify="运算" description="summon of monster">
+		<prop name="name" format="string"/>
+		<prop name="value" format="string"/>
+	</bean>
+
+	<bean name="less" classify="运算" description="summon of monster">
+		<prop name="name" format="string"/>
+		<prop name="value" format="string"/>
+	</bean>
+
+	<bean name="animate" classify="逻辑" component="LaoHan.Tools.WorldEditor.lhTriggerAnimator" description="summon of monster">
+		<prop name="id" format="string"/>
+		<prop name="name" format="string"/>
+		<prop name="type" format="string"/>
+		<prop name="value" format="string"/>
+	</bean>
+
+	<bean name="guilog" classify="工具" description="gui log">
+		<prop name="content" format="string"/>
+	</bean>
+
+	<bean name="curTime" classify="运算" description="set NowTime">
+		<prop name="name" format="int"/>
+	</bean>
+
+	<bean name="addRespawnPoint" classify="逻辑" description="addRespawnPoint">
+		<prop name="range" format="float"/>
+		<prop name="pos" format="object"/>
+		<prop name="yaw" format="float"/>
+		 <prop name="tag" format="int"/>
+	</bean>
+
+	<bean name="clearRespawnPoint" classify="逻辑" description="clearRespawnPoint">
+		<prop name="tag" format="int"/>
+	</bean>
+	<bean name="resumeHp" classify="逻辑" description="ResumeHp">
+		<prop name="hp" format="int"/>
+	</bean>
+	
+	<bean name="execScript" classify="工具" description="ExecScript">
+		<prop name="id" format="int"/>
+	</bean>
+	
+   <bean name="addSceneTick" classify="逻辑" description="SceneTick">
+	 <prop name="id" format="int"/>
+	 <prop name="lastTime" format="int"/>
+  </bean>
+  
+  <bean name="playStory" classify="逻辑" description="playStory">
+		<prop name="id" format="string"/>
+	</bean>
+  <bean name="cutScene" classify="逻辑" description="cut scene" component="LaoHan.Tools.WorldEditor.lhTriggerCutScene">
+    <prop name="id" format="string"/>
+  </bean>
+  <bean name="showWall" classify="逻辑" description="cut scene" component="LaoHan.Tools.WorldEditor.lhTriggerShowWall">
+    <prop name="id" format="string"/>
+    <prop name="state" format="int"/>
+  </bean>
+  <bean name="cutScene" classify="逻辑" description="cut scene" component="LaoHan.Tools.WorldEditor.lhTriggerCutScene">
+    <prop name="id" format="string"/>
+  </bean>
+   <bean name="clearAllMonster" classify="逻辑" description="clearAllMonster">
+	 <prop name="tag" format="int"/>
+    </bean>
+
+	<bean name="closeCollider" classify="逻辑" description="closeCollider">
+		<prop name="id" format="string"/>
+    </bean>
+	<bean name="openCollider" classify="逻辑" description="closeCollider">
+		<prop name="id" format="string"/>
+    </bean>
+	<bean name="playMusic" classify="逻辑" description="closeCollider" component="LaoHan.Tools.WorldEditor.lhTriggerAudio">
+		<prop name="id" format="string"/>
+    </bean>
+	<bean name="setTarget" classify="逻辑" description="closeCollider">
+		<prop name="pos" format="object"/>
+		<prop name="range" format="int"/>
+    </bean>
+	<bean name="showNotify" classify="逻辑" description="closeCollider">
+		<prop name="content" format="string"/>
+		<prop name="lasttime" format="int"/>
+    </bean>
+	<bean name="activeMonster" classify="逻辑" description="activeMonster">
+		<prop name="tag" format="int"/>
+    </bean>
+	
+	<bean name="tickSummon" classify="逻辑" description="tick summon of monster">
+		<prop name="id" format="int"/>
+		<prop name="pos" format="object"/>
+		<prop name="maxCount" format="int"/>
+		<prop name="nowLimitMax" format="int"/>
+		<prop name="nowLimitMin" format="int"/>
+		<prop name="delay" format="int"/>
+		<prop name="tag" format="int"/>
+		<prop name="nextBirthMax" format="int"/>
+		<prop name="nextBirthMin" format="int"/>
+		<prop name="needToAttack" format="int"/>
+		<prop name="walkPercent" format="int"/>
+	</bean>
+	
+	<bean name="pullUser" classify="逻辑" description="pullUser">
+		<prop name="posCount" format="int"/>
+		<prop name="pos_0" format="object"/>
+		<prop name="pos_1" format="object"/>
+		<prop name="pos_2" format="object"/>
+		<prop name="pos_3" format="object"/>
+		<prop name="pos_4" format="object"/>
+		<prop name="pos_5" format="object"/>
+		<prop name="pos_6" format="object"/>
+    </bean>
+	
+	<bean name="endScene" classify="逻辑" description="endScene">
+		<prop name="result" format="int"/>
+    </bean>
+	<bean name="showTick" classify="逻辑" description="showTick">
+		<prop name="leftTime" format="int"/>
+    </bean>
+</root>

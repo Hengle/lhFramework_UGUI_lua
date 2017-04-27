@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4119188293
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc3a75a9816259d097659399ec9ec829
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/luaPlugins/socket/ftp.txt
+Dependencies: []

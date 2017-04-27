@@ -1,0 +1,34 @@
+{
+	"defaultData":
+	{
+		"uiRoot":"Canvas",
+		"uiClass":"luaUI_Login",
+		"backMusicConnection":"Hall"
+	},
+	"utilityLibrary":
+	[
+		{
+			"uiClass":"luaUIUtility_Dialog",
+			"uiPath":"UI_lua,UIUtility_Dialog"
+		}
+	],
+	"uiLibrary":
+	[
+		{
+			"uiClass":"luaUI_Login",
+			"uiPath":"UI_lua,UI_Login"
+		},
+
+		{
+			"uiClass":"luaUI_ServerChoose",
+			"uiPath":"UI_lua,UI_ServerChoose"
+		},
+
+
+		{
+			"uiClass":"luaUI_Hall",
+			"uiPath":"UI_lua,UI_Hall"
+		}
+
+	]
+}

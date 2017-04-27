@@ -1,0 +1,74 @@
+﻿[
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "RELEASE",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "True",        
+        "DefineName" : "DEVELOP",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "DEBUG",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "LUA",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "True",        
+        "DefineName" : "LOG_DEBUG",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "LOG_GUI",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "LOG_UPLOAD",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "LOG_FILE",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "GIZMOS",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "POOLPOINT",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "False",        
+        "DefineName" : "UGUI",        
+        "TargetGroupValue" : -1
+    },    
+    
+    {
+        "Active" : "True",        
+        "DefineName" : "FARIYGUI",        
+        "TargetGroupValue" : -1
+    }
+]

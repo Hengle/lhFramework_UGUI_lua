@@ -1,0 +1,46 @@
+<root>
+  <bean name="mapInitialize" classify="事件" description="Map initialization">
+  </bean>
+  <bean name="enterCollider" classify="事件" component="LaoHan.Tools.WorldEditor.lhTriggerCollider" description="Player enter collider will start trigger">
+    <prop name="id" format="string"/>
+  </bean>
+  <bean name="npcVisit" classify="事件" description="Player enter collider will start trigger">
+    <prop name="id" format="string"/>
+  </bean>
+  
+  <bean name="sceneTick" classify="事件" description="SceneTick">
+	 <prop name="id" format="int"/>
+  </bean>
+  <bean name="monsterDeath" classify="事件" description="monsterDeath">
+   <prop name="id" format="int"/>
+   <prop name="tag" format="int"/>
+  </bean>
+   <bean name="monsterBeAtk" classify="事件" description="monsterBeAtk">
+   <prop name="id" format="int"/>
+   <prop name="tag" format="int"/>
+  </bean>
+   <bean name="userDeath" classify="事件" description="userDeath">
+  </bean>
+  <bean name="add" classify="运算" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="minus" classify="运算" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="great" classify="运算" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  
+  <bean name="less" classify="运算" description="summon of monster">
+    <prop name="name" format="string"/>
+    <prop name="value" format="string"/>
+  </bean>
+  <bean name="script" classify="脚本" description="Script">
+		<prop name="id" format="int"/>
+	</bean>
+</root>

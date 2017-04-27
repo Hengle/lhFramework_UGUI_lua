@@ -1,0 +1,319 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: audio/action_flashbang1.bundle
+      Dependencies: {}
+    Info_1:
+      Name: audio/back_1.bundle
+      Dependencies: {}
+    Info_2:
+      Name: audio/back_aftermath.bundle
+      Dependencies: {}
+    Info_3:
+      Name: audio/back_calling_all_units.bundle
+      Dependencies: {}
+    Info_4:
+      Name: audio/back_carve him up.bundle
+      Dependencies: {}
+    Info_5:
+      Name: audio/back_drives me crazy.bundle
+      Dependencies: {}
+    Info_6:
+      Name: audio/effect_eruption1.bundle
+      Dependencies: {}
+    Info_7:
+      Name: audio/effect_explosion1.bundle
+      Dependencies: {}
+    Info_8:
+      Name: audio/effect_laser1.bundle
+      Dependencies: {}
+    Info_9:
+      Name: audio/trigger_pentakill1.bundle
+      Dependencies: {}
+    Info_10:
+      Name: audio/ui_buttonclick.bundle
+      Dependencies: {}
+    Info_11:
+      Name: audio/ui_laser2.bundle
+      Dependencies: {}
+    Info_12:
+      Name: audiomixer/uimixer.bundle
+      Dependencies: {}
+    Info_13:
+      Name: configdata/audioconfig.bundle
+      Dependencies: {}
+    Info_14:
+      Name: configdata/cdn.bundle
+      Dependencies: {}
+    Info_15:
+      Name: configdata/httpprotocalconfig.bundle
+      Dependencies: {}
+    Info_16:
+      Name: configdata/languageconfig.bundle
+      Dependencies: {}
+    Info_17:
+      Name: configdata/locuiconfig.bundle
+      Dependencies: {}
+    Info_18:
+      Name: configdata/lualoaderconfig.bundle
+      Dependencies: {}
+    Info_19:
+      Name: configdata/luauiconfig.bundle
+      Dependencies: {}
+    Info_20:
+      Name: configdata/sceneconfig.bundle
+      Dependencies: {}
+    Info_21:
+      Name: effect/material/new material 1.bundle
+      Dependencies:
+        Dependency_0: effect/texture/npceditscene.bundle
+        Dependency_1: shader/imageeffectshader/lhhidden_outterlinecutoff.bundle
+    Info_22:
+      Name: effect/material/new material.bundle
+      Dependencies:
+        Dependency_0: effect/texture/npceditscene.bundle
+        Dependency_1: shader/imageeffectshader/lhhidden_rimspecbump.bundle
+    Info_23:
+      Name: effect/prefab/cube (1).bundle
+      Dependencies:
+        Dependency_0: effect/material/new material 1.bundle
+    Info_24:
+      Name: effect/prefab/cube.bundle
+      Dependencies:
+        Dependency_0: effect/material/new material.bundle
+    Info_25:
+      Name: effect/prefab/gameobject.bundle
+      Dependencies:
+        Dependency_0: effect/material/new material.bundle
+    Info_26:
+      Name: effect/texture/npceditscene.bundle
+      Dependencies: {}
+    Info_27:
+      Name: luascripts/framework/controlsystem/luacontrolnetwork.bundle
+      Dependencies: {}
+    Info_28:
+      Name: luascripts/framework/datasystem/luacachedata.bundle
+      Dependencies: {}
+    Info_29:
+      Name: luascripts/framework/datasystem/luaconfigdata.bundle
+      Dependencies: {}
+    Info_30:
+      Name: luascripts/framework/datasystem/luamemorydata.bundle
+      Dependencies: {}
+    Info_31:
+      Name: luascripts/framework/infrastruturesystem/system/bounds.bundle
+      Dependencies: {}
+    Info_32:
+      Name: luascripts/framework/infrastruturesystem/system/class.bundle
+      Dependencies: {}
+    Info_33:
+      Name: luascripts/framework/infrastruturesystem/system/color.bundle
+      Dependencies: {}
+    Info_34:
+      Name: luascripts/framework/infrastruturesystem/system/coroutine.bundle
+      Dependencies: {}
+    Info_35:
+      Name: luascripts/framework/infrastruturesystem/system/event.bundle
+      Dependencies: {}
+    Info_36:
+      Name: luascripts/framework/infrastruturesystem/system/layermask.bundle
+      Dependencies: {}
+    Info_37:
+      Name: luascripts/framework/infrastruturesystem/system/list.bundle
+      Dependencies: {}
+    Info_38:
+      Name: luascripts/framework/infrastruturesystem/system/mathf.bundle
+      Dependencies: {}
+    Info_39:
+      Name: luascripts/framework/infrastruturesystem/system/misc.bundle
+      Dependencies: {}
+    Info_40:
+      Name: luascripts/framework/infrastruturesystem/system/plane.bundle
+      Dependencies: {}
+    Info_41:
+      Name: luascripts/framework/infrastruturesystem/system/quaternion.bundle
+      Dependencies: {}
+    Info_42:
+      Name: luascripts/framework/infrastruturesystem/system/ray.bundle
+      Dependencies: {}
+    Info_43:
+      Name: luascripts/framework/infrastruturesystem/system/raycasthit.bundle
+      Dependencies: {}
+    Info_44:
+      Name: luascripts/framework/infrastruturesystem/system/slot.bundle
+      Dependencies: {}
+    Info_45:
+      Name: luascripts/framework/infrastruturesystem/system/strict.bundle
+      Dependencies: {}
+    Info_46:
+      Name: luascripts/framework/infrastruturesystem/system/time.bundle
+      Dependencies: {}
+    Info_47:
+      Name: luascripts/framework/infrastruturesystem/system/timer.bundle
+      Dependencies: {}
+    Info_48:
+      Name: luascripts/framework/infrastruturesystem/system/tolua.bundle
+      Dependencies: {}
+    Info_49:
+      Name: luascripts/framework/infrastruturesystem/system/touch.bundle
+      Dependencies: {}
+    Info_50:
+      Name: luascripts/framework/infrastruturesystem/system/typeof.bundle
+      Dependencies: {}
+    Info_51:
+      Name: luascripts/framework/infrastruturesystem/system/utf8.bundle
+      Dependencies: {}
+    Info_52:
+      Name: luascripts/framework/infrastruturesystem/system/valuetype.bundle
+      Dependencies: {}
+    Info_53:
+      Name: luascripts/framework/infrastruturesystem/system/vector2.bundle
+      Dependencies: {}
+    Info_54:
+      Name: luascripts/framework/infrastruturesystem/system/vector3.bundle
+      Dependencies: {}
+    Info_55:
+      Name: luascripts/framework/infrastruturesystem/system/vector4.bundle
+      Dependencies: {}
+    Info_56:
+      Name: luascripts/framework/infrastruturesystem/luabehaviour.bundle
+      Dependencies: {}
+    Info_57:
+      Name: luascripts/framework/infrastruturesystem/luainfrastruturemanager.bundle
+      Dependencies: {}
+    Info_58:
+      Name: luascripts/framework/uisystem/luaintent.bundle
+      Dependencies: {}
+    Info_59:
+      Name: luascripts/framework/uisystem/luauibase.bundle
+      Dependencies: {}
+    Info_60:
+      Name: luascripts/framework/uisystem/luauimanager.bundle
+      Dependencies: {}
+    Info_61:
+      Name: luascripts/gameplay/uisystem/luaui_hall.bundle
+      Dependencies: {}
+    Info_62:
+      Name: luascripts/gameplay/uisystem/luaui_login.bundle
+      Dependencies: {}
+    Info_63:
+      Name: luascripts/luaplugins/cjson/util.bundle
+      Dependencies: {}
+    Info_64:
+      Name: luascripts/luaplugins/protobuf/containers.bundle
+      Dependencies: {}
+    Info_65:
+      Name: luascripts/luaplugins/protobuf/decoder.bundle
+      Dependencies: {}
+    Info_66:
+      Name: luascripts/luaplugins/protobuf/descriptor.bundle
+      Dependencies: {}
+    Info_67:
+      Name: luascripts/luaplugins/protobuf/encoder.bundle
+      Dependencies: {}
+    Info_68:
+      Name: luascripts/luaplugins/protobuf/listener.bundle
+      Dependencies: {}
+    Info_69:
+      Name: luascripts/luaplugins/protobuf/protobuf.bundle
+      Dependencies: {}
+    Info_70:
+      Name: luascripts/luaplugins/protobuf/text_format.bundle
+      Dependencies: {}
+    Info_71:
+      Name: luascripts/luaplugins/protobuf/type_checkers.bundle
+      Dependencies: {}
+    Info_72:
+      Name: luascripts/luaplugins/protobuf/wire_format.bundle
+      Dependencies: {}
+    Info_73:
+      Name: luascripts/luaplugins/socket/ftp.bundle
+      Dependencies: {}
+    Info_74:
+      Name: luascripts/luaplugins/socket/headers.bundle
+      Dependencies: {}
+    Info_75:
+      Name: luascripts/luaplugins/socket/http.bundle
+      Dependencies: {}
+    Info_76:
+      Name: luascripts/luaplugins/socket/mbox.bundle
+      Dependencies: {}
+    Info_77:
+      Name: luascripts/luaplugins/socket/smtp.bundle
+      Dependencies: {}
+    Info_78:
+      Name: luascripts/luaplugins/socket/tp.bundle
+      Dependencies: {}
+    Info_79:
+      Name: luascripts/luaplugins/socket/url.bundle
+      Dependencies: {}
+    Info_80:
+      Name: shader/imageeffectshader/lhhidden_halfculling.bundle
+      Dependencies: {}
+    Info_81:
+      Name: shader/imageeffectshader/lhhidden_localtransparent.bundle
+      Dependencies: {}
+    Info_82:
+      Name: shader/imageeffectshader/lhhidden_outterlineconposite.bundle
+      Dependencies: {}
+    Info_83:
+      Name: shader/imageeffectshader/lhhidden_outterlinecutoff.bundle
+      Dependencies: {}
+    Info_84:
+      Name: shader/imageeffectshader/lhhidden_outterlineshapeblur.bundle
+      Dependencies: {}
+    Info_85:
+      Name: shader/imageeffectshader/lhhidden_rimspec.bundle
+      Dependencies: {}
+    Info_86:
+      Name: shader/imageeffectshader/lhhidden_rimspecbump.bundle
+      Dependencies: {}
+    Info_87:
+      Name: shader/imageeffectshader/lhui_imagefuzzy.bundle
+      Dependencies: {}
+    Info_88:
+      Name: shader/imageeffectshader/x-ray.bundle
+      Dependencies: {}
+    Info_89:
+      Name: ui_csharp/ui_hall.bundle
+      Dependencies: {}
+    Info_90:
+      Name: ui_csharp/ui_loading.bundle
+      Dependencies: {}
+    Info_91:
+      Name: ui_csharp/ui_login.bundle
+      Dependencies: {}
+    Info_92:
+      Name: ui_csharp/ui_serverchoose.bundle
+      Dependencies: {}
+    Info_93:
+      Name: ui_csharp/ui_socketerror.bundle
+      Dependencies: {}
+    Info_94:
+      Name: ui_csharp/utility_dialog.bundle
+      Dependencies: {}
+    Info_95:
+      Name: ui_csharp/utility_loading.bundle
+      Dependencies: {}
+    Info_96:
+      Name: ui_csharp/utility_tooltip.bundle
+      Dependencies: {}
+    Info_97:
+      Name: ui_lua/ui_hall.bundle
+      Dependencies: {}
+    Info_98:
+      Name: ui_lua/ui_login.bundle
+      Dependencies: {}
+    Info_99:
+      Name: ui_lua/ui_serverchoose.bundle
+      Dependencies: {}
+    Info_100:
+      Name: ui_lua/utility_dialog.bundle
+      Dependencies: {}
+    Info_101:
+      Name: ui_lua/utility_loading.bundle
+      Dependencies: {}
+    Info_102:
+      Name: ui_lua/utility_tooltip.bundle
+      Dependencies: {}

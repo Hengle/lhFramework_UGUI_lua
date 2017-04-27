@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 938760189
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a003db9c69358847e1b09613cebdc45f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/framework/infrastrutureSystem/system/list.txt
+Dependencies: []

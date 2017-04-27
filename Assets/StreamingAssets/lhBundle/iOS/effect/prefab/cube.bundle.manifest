@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1302936849
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 551350c9eabfba5417f2d0432307e31a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 67e99222a1589ff9377ee6366f65dd7a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effect/Prefab/Cube.prefab
+Dependencies:
+- Assets/StreamingAssets/lhBundle/iOS/effect/material/new material.bundle

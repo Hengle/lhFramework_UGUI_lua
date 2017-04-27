@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2195008585
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00e3328bce213ba3ce98108d5010d28f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/LuaScripts/framework/infrastrutureSystem/system/coroutine.txt
+Dependencies: []

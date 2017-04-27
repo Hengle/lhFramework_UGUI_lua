@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 4288883169
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 828687d2783ad5260c638c366b717e0f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3b408876498c5d6d6021effd5bf76c84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Effect/Prefab/GameObject.prefab
+Dependencies:
+- Assets/StreamingAssets/lhBundle/iOS/effect/material/new material.bundle

@@ -1,0 +1,270 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ui_csharp/utility_loading.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: ui_csharp/ui_serverchoose.assetbundle
+      Dependencies: {}
+    Info_2:
+      Name: ui_lua/canvas.assetbundle
+      Dependencies: {}
+    Info_3:
+      Name: ui_csharp/ui_loading.assetbundle
+      Dependencies: {}
+    Info_4:
+      Name: ui_csharp/utility_tooltip.assetbundle
+      Dependencies: {}
+    Info_5:
+      Name: audiomixer/uimixer.assetbundle
+      Dependencies: {}
+    Info_6:
+      Name: ui_csharp/ui_hall.assetbundle
+      Dependencies: {}
+    Info_7:
+      Name: ui_csharp/utility_dialog.assetbundle
+      Dependencies: {}
+    Info_8:
+      Name: ui_csharp/ui_login.assetbundle
+      Dependencies: {}
+    Info_9:
+      Name: ui_csharp/ui_socketerror.assetbundle
+      Dependencies: {}
+    Info_10:
+      Name: luascripts/luaplugins/socket/url.assetbundle
+      Dependencies: {}
+    Info_11:
+      Name: luascripts/framework/infrastruturesystem/system/slot.assetbundle
+      Dependencies: {}
+    Info_12:
+      Name: audio/ui_laser2.assetbundle
+      Dependencies: {}
+    Info_13:
+      Name: luascripts/framework/infrastruturesystem/system/event.assetbundle
+      Dependencies: {}
+    Info_14:
+      Name: luascripts/luaplugins/protobuf/wire_format.assetbundle
+      Dependencies: {}
+    Info_15:
+      Name: luascripts/framework/infrastruturesystem/system/timer.assetbundle
+      Dependencies: {}
+    Info_16:
+      Name: audio/action_flashbang1.assetbundle
+      Dependencies: {}
+    Info_17:
+      Name: audio/effect_laser1.assetbundle
+      Dependencies: {}
+    Info_18:
+      Name: luascripts/framework/infrastruturesystem/system/tolua.assetbundle
+      Dependencies: {}
+    Info_19:
+      Name: luascripts/luaplugins/socket/smtp.assetbundle
+      Dependencies: {}
+    Info_20:
+      Name: audio/back_drives me crazy.assetbundle
+      Dependencies: {}
+    Info_21:
+      Name: luascripts/framework/infrastruturesystem/system/class.assetbundle
+      Dependencies: {}
+    Info_22:
+      Name: luascripts/framework/infrastruturesystem/system/misc.assetbundle
+      Dependencies: {}
+    Info_23:
+      Name: luascripts/luaplugins/socket/http.assetbundle
+      Dependencies: {}
+    Info_24:
+      Name: configdata/luauiconfig.assetbundle
+      Dependencies: {}
+    Info_25:
+      Name: audio/back_calling_all_units.assetbundle
+      Dependencies: {}
+    Info_26:
+      Name: luascripts/luaplugins/protobuf/encoder.assetbundle
+      Dependencies: {}
+    Info_27:
+      Name: audio/effect_explosion1.assetbundle
+      Dependencies: {}
+    Info_28:
+      Name: luascripts/framework/uisystem/luauibase.assetbundle
+      Dependencies: {}
+    Info_29:
+      Name: luascripts/framework/infrastruturesystem/system/plane.assetbundle
+      Dependencies: {}
+    Info_30:
+      Name: luascripts/framework/infrastruturesystem/system/touch.assetbundle
+      Dependencies: {}
+    Info_31:
+      Name: configdata/locuiconfig.assetbundle
+      Dependencies: {}
+    Info_32:
+      Name: audio/back_1.assetbundle
+      Dependencies: {}
+    Info_33:
+      Name: luascripts/luaplugins/protobuf/descriptor.assetbundle
+      Dependencies: {}
+    Info_34:
+      Name: luascripts/framework/infrastruturesystem/system/quaternion.assetbundle
+      Dependencies: {}
+    Info_35:
+      Name: luascripts/gameplay/uisystem/luaui_hall.assetbundle
+      Dependencies: {}
+    Info_36:
+      Name: configdata/httpprotocalconfig.assetbundle
+      Dependencies: {}
+    Info_37:
+      Name: luascripts/framework/infrastruturesystem/system/color.assetbundle
+      Dependencies: {}
+    Info_38:
+      Name: luascripts/framework/infrastruturesystem/system/coroutine.assetbundle
+      Dependencies: {}
+    Info_39:
+      Name: audio/effect_eruption1.assetbundle
+      Dependencies: {}
+    Info_40:
+      Name: luascripts/luaplugins/protobuf/protobuf.assetbundle
+      Dependencies: {}
+    Info_41:
+      Name: luascripts/luaplugins/cjson/util.assetbundle
+      Dependencies: {}
+    Info_42:
+      Name: luascripts/gameplay/uisystem/uirequire.assetbundle
+      Dependencies: {}
+    Info_43:
+      Name: luascripts/framework/infrastruturesystem/system/list.assetbundle
+      Dependencies: {}
+    Info_44:
+      Name: luascripts/framework/infrastruturesystem/luabehaviour.assetbundle
+      Dependencies: {}
+    Info_45:
+      Name: configdata/cdn.assetbundle
+      Dependencies: {}
+    Info_46:
+      Name: luascripts/framework/infrastruturesystem/system/strict.assetbundle
+      Dependencies: {}
+    Info_47:
+      Name: luascripts/framework/infrastruturesystem/system/mathf.assetbundle
+      Dependencies: {}
+    Info_48:
+      Name: luascripts/framework/datasystem/luacachedata.assetbundle
+      Dependencies: {}
+    Info_49:
+      Name: luascripts/framework/controlsystem/luacontrolnetwork.assetbundle
+      Dependencies: {}
+    Info_50:
+      Name: luascripts/framework/infrastruturesystem/system/time.assetbundle
+      Dependencies: {}
+    Info_51:
+      Name: configdata/sceneconfig.assetbundle
+      Dependencies: {}
+    Info_52:
+      Name: luascripts/framework/infrastruturesystem/system/bounds.assetbundle
+      Dependencies: {}
+    Info_53:
+      Name: luascripts/luaplugins/protobuf/containers.assetbundle
+      Dependencies: {}
+    Info_54:
+      Name: luascripts/framework/uisystem/luauimanager.assetbundle
+      Dependencies: {}
+    Info_55:
+      Name: luascripts/luaplugins/protobuf/decoder.assetbundle
+      Dependencies: {}
+    Info_56:
+      Name: luascripts/framework/infrastruturesystem/system/layermask.assetbundle
+      Dependencies: {}
+    Info_57:
+      Name: luascripts/luaplugins/protobuf/listener.assetbundle
+      Dependencies: {}
+    Info_58:
+      Name: luascripts/luaplugins/protobuf/text_format.assetbundle
+      Dependencies: {}
+    Info_59:
+      Name: audio/back_carve him up.assetbundle
+      Dependencies: {}
+    Info_60:
+      Name: audio/trigger_pentakill1.assetbundle
+      Dependencies: {}
+    Info_61:
+      Name: luascripts/framework/infrastruturesystem/system/vector4.assetbundle
+      Dependencies: {}
+    Info_62:
+      Name: luascripts/framework/infrastruturesystem/system/ray.assetbundle
+      Dependencies: {}
+    Info_63:
+      Name: luascripts/framework/infrastruturesystem/system/utf8.assetbundle
+      Dependencies: {}
+    Info_64:
+      Name: audio/ui_buttonclick.assetbundle
+      Dependencies: {}
+    Info_65:
+      Name: luascripts/framework/datasystem/luamemorydata.assetbundle
+      Dependencies: {}
+    Info_66:
+      Name: luascripts/luaplugins/socket/mbox.assetbundle
+      Dependencies: {}
+    Info_67:
+      Name: luascripts/framework/infrastruturesystem/system/raycasthit.assetbundle
+      Dependencies: {}
+    Info_68:
+      Name: luascripts/luaplugins/socket/ftp.assetbundle
+      Dependencies: {}
+    Info_69:
+      Name: luascripts/framework/infrastruturesystem/system/vector2.assetbundle
+      Dependencies: {}
+    Info_70:
+      Name: luascripts/luaplugins/protobuf/type_checkers.assetbundle
+      Dependencies: {}
+    Info_71:
+      Name: audio/back_aftermath.assetbundle
+      Dependencies: {}
+    Info_72:
+      Name: luascripts/framework/infrastruturesystem/luainfrastruturemanager.assetbundle
+      Dependencies: {}
+    Info_73:
+      Name: configdata/audioconfig.assetbundle
+      Dependencies: {}
+    Info_74:
+      Name: luascripts/framework/infrastruturesystem/system/typeof.assetbundle
+      Dependencies: {}
+    Info_75:
+      Name: luascripts/luaplugins/socket/headers.assetbundle
+      Dependencies: {}
+    Info_76:
+      Name: luascripts/gameplay/uisystem/luaui_login.assetbundle
+      Dependencies: {}
+    Info_77:
+      Name: configdata/lualoaderconfig.assetbundle
+      Dependencies: {}
+    Info_78:
+      Name: configdata/languageconfig.assetbundle
+      Dependencies: {}
+    Info_79:
+      Name: luascripts/luaplugins/socket/tp.assetbundle
+      Dependencies: {}
+    Info_80:
+      Name: luascripts/framework/infrastruturesystem/system/valuetype.assetbundle
+      Dependencies: {}
+    Info_81:
+      Name: luascripts/framework/infrastruturesystem/system/vector3.assetbundle
+      Dependencies: {}
+    Info_82:
+      Name: luascripts/framework/datasystem/luaconfigdata.assetbundle
+      Dependencies: {}
+    Info_83:
+      Name: ui_lua/ui_login.assetbundle
+      Dependencies: {}
+    Info_84:
+      Name: ui_lua/ui_hall.assetbundle
+      Dependencies: {}
+    Info_85:
+      Name: ui_lua/ui_serverchoose.assetbundle
+      Dependencies: {}
+    Info_86:
+      Name: ui_lua/utility_dialog.assetbundle
+      Dependencies: {}
+    Info_87:
+      Name: ui_lua/utility_loading.assetbundle
+      Dependencies: {}
+    Info_88:
+      Name: ui_lua/utility_tooltip.assetbundle
+      Dependencies: {}
